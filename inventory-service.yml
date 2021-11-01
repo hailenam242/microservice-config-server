@@ -10,8 +10,8 @@ spring:
     init:
       mode: always
       platform: mysql
-    datasource:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/order_service
-      username: root
-      password: 1234
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/order_service
+    username: root
+     password: 1234
